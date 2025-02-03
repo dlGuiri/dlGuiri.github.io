@@ -1,0 +1,65 @@
+/* General Body Styling */
+body {
+    background-image: url("https://images.template.net/359853/Star-Wars-Art-Background-Template-edit-online-1.jpg");
+    background-size: cover;
+    background-color: #1e242b;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+/* Heading Styling */
+h1 {
+    color: #f7d88a;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Quote and Classification */
+#quote, #classification {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #342626;
+    line-height: 1.5;
+}
+
+/* Style for the species display area */
+#personDisplay {
+    margin-top: 100px;
+}
+
+/* Styling for the 'author' or other details */
+#author {
+    font-style: italic;
+    color: #a1a1a1;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #d2c36e;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Remove underline from links */
+a {
+    color: #2c3128; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
